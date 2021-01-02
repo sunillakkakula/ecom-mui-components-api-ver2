@@ -1,0 +1,61 @@
+const products = [
+  {
+    name: "Turmeric",
+    image: "/images/Turmeric.jpeg",
+    description: "Best Turmeric ",
+    brand: "Vishudha",
+    category: "Groceries",
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: "Salt",
+    image: "/images/Turmeric.jpeg",
+    description: "Best Turmeric ",
+    brand: "Vishudha",
+    category: "Groceries",
+    price: 89.99,
+    countInStock: 100,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: "Chilli",
+    image: "/images/Turmeric.jpeg",
+    description: "Best Turmeric ",
+    brand: "Vishudha",
+    category: "Groceries",
+    price: 89.99,
+    countInStock: 100,
+    rating: 4.5,
+    numReviews: 12,
+  },
+
+  {
+    name: "Coriander",
+    image: "/images/Turmeric.jpeg",
+    description: "Best Turmeric ",
+    brand: "Vishudha",
+    category: "Groceries",
+    price: 89.99,
+    countInStock: 100,
+    rating: 4.5,
+    numReviews: 12,
+  },
+
+  {
+    name: "Cashews",
+    image: "/images/Cashews.jpg",
+    description: "Cashews",
+    brand: "Vishudha",
+    category: "Groceries",
+    price: 49.99,
+    countInStock: 87,
+    rating: 3.5,
+    numReviews: 10,
+  },
+];
+
+export default products;
