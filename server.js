@@ -1,17 +1,13 @@
-// const express = require("express");
-// const dotenv = require("dotenv");
-
 import express from "express";
 import dotenv from "dotenv";
-const server = express();
-
-// const products = require("./data/products.js");
-// import products from "./data/products.js";
 import connectDB from "./config/db.js";
 import productRoutes from "./routes/product.js";
+import userRoutes from "./routes/user.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import colors from "colors";
 
+const server = express();
+server.use(express.json());
 dotenv.config();
 
 connectDB();
@@ -23,22 +19,9 @@ server.get("/api", (req, res) => {
 });
 
 server.use("/api/products", productRoutes);
+server.use("/api/users", userRoutes);
+
 server.use(notFound);
-
-// server.use((req, res, next) => {
-//   const error = new Error(`Not Found - ${req.originalUrl}`);
-//   res.status(404);
-//   next(error);
-// });
-
-/**server.use((err, req, res, next) => {
-  const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
-  res.status(statusCode);
-  res.json({
-    message: err.message,
-    stack: process.env.NODE_ENV === "production" ? null : err.stack,
-  });
-});*/
 server.use(errorHandler);
 
 server.listen(PORT, () =>
