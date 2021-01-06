@@ -1,7 +1,7 @@
 const products = [
   {
     name: "Turmeric",
-    image: "/images/Turmeric.jpeg",
+    image: "/images/01.jpg",
     description: "Best Turmeric ",
     brand: "Vishudha",
     category: "Groceries",
@@ -12,7 +12,7 @@ const products = [
   },
   {
     name: "Salt",
-    image: "/images/Turmeric.jpeg",
+    image: "/images/02.jpg",
     description: "Best Turmeric ",
     brand: "Vishudha",
     category: "Groceries",
@@ -23,7 +23,7 @@ const products = [
   },
   {
     name: "Chilli",
-    image: "/images/Turmeric.jpeg",
+    image: "/images/03.jpg",
     description: "Best Turmeric ",
     brand: "Vishudha",
     category: "Groceries",
@@ -35,7 +35,7 @@ const products = [
 
   {
     name: "Coriander",
-    image: "/images/Turmeric.jpeg",
+    image: "/images/04.jpg",
     description: "Best Turmeric ",
     brand: "Vishudha",
     category: "Groceries",
@@ -47,7 +47,7 @@ const products = [
 
   {
     name: "Cashews",
-    image: "/images/Cashews.jpg",
+    image: "/images/05.jpg",
     description: "Cashews",
     brand: "Vishudha",
     category: "Groceries",
