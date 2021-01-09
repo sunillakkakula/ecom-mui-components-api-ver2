@@ -1,8 +1,8 @@
 const products = [
   {
-    name: "Turmeric",
+    name: "Cashews",
     image: "/images/01.jpg",
-    description: "Best Turmeric ",
+    description: "Best Cashews ",
     brand: "Vishudha",
     category: "Groceries",
     price: 89.99,
@@ -11,9 +11,9 @@ const products = [
     numReviews: 12,
   },
   {
-    name: "Salt",
+    name: "Coriander",
     image: "/images/02.jpg",
-    description: "Best Turmeric ",
+    description: "Best Coriander ",
     brand: "Vishudha",
     category: "Groceries",
     price: 89.99,
@@ -24,7 +24,7 @@ const products = [
   {
     name: "Chilli",
     image: "/images/03.jpg",
-    description: "Best Turmeric ",
+    description: "Best Chilli",
     brand: "Vishudha",
     category: "Groceries",
     price: 89.99,
@@ -34,9 +34,9 @@ const products = [
   },
 
   {
-    name: "Coriander",
+    name: "Salt",
     image: "/images/04.jpg",
-    description: "Best Turmeric ",
+    description: "Best Salt ",
     brand: "Vishudha",
     category: "Groceries",
     price: 89.99,
@@ -46,9 +46,9 @@ const products = [
   },
 
   {
-    name: "Cashews",
+    name: "Turmeric",
     image: "/images/05.jpg",
-    description: "Cashews",
+    description: "Best turmeric",
     brand: "Vishudha",
     category: "Groceries",
     price: 49.99,

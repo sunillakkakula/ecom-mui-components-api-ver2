@@ -1,0 +1,10 @@
+import Order from "../models/Order.js";
+import express from "express";
+import { addOrderItems } from "../controllers/orderController.js";
+import { protect } from "../middleware/authMiddleware.js";
+
+const router = express.Router();
+
+router.route("/").post(addOrderItems);
+
+export default router;

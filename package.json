@@ -4,6 +4,7 @@
   "description": "API for Ecomm Client",
   "main": "index.js",
   "type": "module",
+  
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
